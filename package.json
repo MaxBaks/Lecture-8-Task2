@@ -1,0 +1,46 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "serve": "http-server src",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxBaks/Lecture-8-Task2.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "MA MISHUTUSHKIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxBaks/Lecture-8-Task2/issues"
+  },
+  "homepage": "https://github.com/MaxBaks/Lecture-8-Task2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.8.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.1.2"
+  }
+}
